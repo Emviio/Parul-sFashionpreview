@@ -32,9 +32,7 @@ google.maps = google.maps || {};
   google.maps.__gjsload__ = function(name, text) {
     modules[name] = text;
   };
-  
-  var loadScriptTime = (new Date).getTime();
-  getScript("https://maps.googleapis.com/maps-api-v3/api/js/64/12ha/search.js");
+ 
   getScript("https://maps.googleapis.com/maps-api-v3/api/js/64/12ha/geometry.js");
   getScript("https://maps.googleapis.com/maps-api-v3/api/js/64/12ha/main.js");
 })();
